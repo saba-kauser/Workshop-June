@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  display: inline-flex;
+  position: relative;
+  width: 100vw;
+  height: 10%;
+  background-color: rgb(59, 56, 56);
+  color: white;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  z-index: 100;
+  position: fixed;
+  overflow: hidden;
+}
+.nav__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: azure;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding-right: 5rem;
+}
+
+.nav__link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-left: 4rem;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  padding: 15rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.Home {
+  height: 37rem;
+  background-color: coral;
+}
+.About {
+  height: 37rem;
+  background-color: pink;
+}
+.Services {
+  height: 37rem;
+  background-color: purple;
+}
+.Download {
+  height: 37rem;
+  background-color: green;
+}
+.Contact {
+  height: 37rem;
+  background-color: yellow;
+}
+
+.active {
+  text-decoration: underline;
+}
