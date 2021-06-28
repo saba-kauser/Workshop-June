@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap");
+body {
+  font-family: "Sen", sans-serif !important;
+  background: black;
+}
+label {
+  font-family: "Sen", sans-serif !important;
+}
+h1 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+.bg-transparent {
+  height: 100vh;
+}
+.bg-transparent div:nth-child(1) {
+  background: black;
+}
+.bg-transparent div:nth-child(2) {
+  background: rgb(24, 24, 35);
+}
+.main > div {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main span {
+  color: rgba(255, 255, 255, 0.5);
+}
+.main .head-text-left {
+  margin-left: -50px;
+}
+.light-grey-color {
+  color: #8491a0;
+}
+.work .inner .work-numbers {
+  font-size: 7rem;
+  margin: 0;
+  display: inline;
+  line-height: 7rem;
+}
+.work .inner .work-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.article .text-content {
+  background-color: rgb(255, 243, 229);
+}
+.instagram .text-display {
+  background-color: #fbe4ff;
+}
+.article img {
+  max-width: 100%;
+}
+.instagram img {
+  max-width: 100%;
+}
+.article p {
+  color: #5b6876;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.instagram p {
+  color: #5b6876;
+  font-size: 18px;
+  text-align: justify;
+}
+input,
+textarea {
+  background: #181823 !important;
+  border: none !important;
+  border-radius: unset !important;
+  color: white !important;
+}
+.contact form .custom-btn {
+  background-color: #5221e6;
+  color: white;
+}
+.navbar {
+  padding: 0 !important;
+  border-top: 6px solid #5221e6;
+}
+.nav-item:nth-child(3) {
+  background: #5221e6;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .main .head-text-left {
+    margin-left: auto;
+    margin-top: 0px !important;
+  }
+  .bg-transparent {
+    height: 90vh;
+  }
+  .main > div {
+    margin: 0px 30px;
+  }
+}
+
+.work-done .text-background {
+  background: rgb(24, 24, 35);
+}
+
+.work-done button {
+  background: black;
+  height: 4rem;
+  width: 13rem;
+  border: 1px solid #5221e6;
+}
+
+.footer {
+  height: 80vh;
+  background-color: rgb(24, 24, 35);
+}
+
+.footer ol {
+  margin-top: 5rem;
+  list-style: none;
+  line-height: 4rem;
+}
+
+/* projects worked */
+
+.cardbody {
+  background-color: rgb(24, 24, 35);
+}
+
+.button-wrapper {
+  height: 140px;
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.button {
+  border: 1px solid #5221e6;
+  /* color: #5221e6; */
+  background-color: black;
+}
+
+a :hover {
+  background-color: #5221e6;
+}
