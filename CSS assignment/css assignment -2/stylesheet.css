@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background-color: rgba(8, 86, 131, 0.945);
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  background-color: white;
+  left: 30%;
+  top: 3rem;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: center;
+}
+.modal__form {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.modal__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top: 2rem;
+}
+h5 {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  line-height: 1.9;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.Pass {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.showPass {
+  position: relative;
+  margin-top: 1rem;
+  margin-left: 0;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 900;
+}
+.creds {
+  position: relative;
+  height: 5em;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: rgba(8, 86, 131, 0.945);
+  position: relative;
+  height: 5em;
+  width: 101%;
+  border: 0;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+a {
+  color: rgba(8, 86, 131, 0.945);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.creds::placeholder {
+  text-align: center;
+  /* color: transparent; */
+  /* visibility: hidden; */
+  /* display: none;
+} */

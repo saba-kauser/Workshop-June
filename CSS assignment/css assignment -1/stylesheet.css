@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: grey;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  color: grey;
+  margin-left: 32.2rem;
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 16.5rem;
+  height: 25rem;
+  text-align: center;
+  line-height: 1rem;
+  font-weight: 450;
+}
+
+img {
+  border-radius: 7rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+h1 {
+  margin: 0;
+}
+.description {
+  padding: 0 1rem 0 1rem;
+  margin: 0;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  height: 3rem;
+  margin-left: 4rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.twitter {
+  padding-right: 2rem;
+}
+
+.Linked-in {
+  padding-right: 2rem;
+}
+/* 
+.instagram {
+  margin: 0;
+  padding-right: 2rem;
+} */
